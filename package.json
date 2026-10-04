@@ -1,0 +1,19 @@
+{
+  "name": "bot-casas-ejemplo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bot simple para jugar a las casas",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.5.1",
+    "jest": "^30.5.1"
+  }
+}
